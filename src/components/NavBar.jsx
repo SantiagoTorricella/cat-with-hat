@@ -1,10 +1,14 @@
 function NavBar() {
   return (
     <div className="nav-bar">
-      <div>Item 1</div>
-      <div>Item 2</div>
-      <div>Item 3</div>
-      <div>Item 4</div>
+      <h3>Cat With Hat</h3>
+      <div className="nav-bar-menu">
+        <div>Home</div>
+        <div>About</div>
+        <div>How to buy</div>
+        <div>Roadmap</div>
+      </div>
+      <button>Buy Now</button>
     </div>
   );
 }

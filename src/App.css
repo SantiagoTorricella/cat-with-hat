@@ -1,11 +1,44 @@
 body {
+  margin: 0;
   background-color: black;
   color: white;
 }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* NAV BAR */
 .nav-bar {
   width: 100%;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   gap: 5em;
+}
+
+.nav-bar-menu {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.nav-bar > * {
+  cursor: pointer;
+}
+
+/* HOME PAGE */
+
+.home-page {
+  display: flex;
+  width: 50%;
+}
+.home-description {
+  display: flex;
+}
+
+.home-img {
+  width: 250px;
+  height: 250px;
 }

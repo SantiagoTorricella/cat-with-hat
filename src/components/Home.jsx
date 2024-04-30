@@ -1,4 +1,4 @@
-import Cat from "../assets/hat-cat.webp";
+import Cat from "../assets/portada.png";
 function Home() {
   return (
     <div className="home-page">

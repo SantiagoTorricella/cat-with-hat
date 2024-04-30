@@ -1,7 +1,12 @@
+import catLogo from "../assets/cat-logo.png";
+
 function NavBar() {
   return (
     <div className="nav-bar">
-      <h3>Cat With Hat</h3>
+      <div className="nav-bar-header">
+        <img src={catLogo} alt="Page logo" className="nav-bar-logo" />
+        <h3>Cat With Hat</h3>
+      </div>
       <div className="nav-bar-menu">
         <div>Home</div>
         <div>About</div>

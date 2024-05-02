@@ -1,4 +1,7 @@
 import Cat from "../assets/portada.png";
+import Twitter from "../assets/twitter.svg";
+import Instagram from "../assets/instagram.svg";
+
 function Home() {
   return (
     <div className="home-page">
@@ -11,7 +14,10 @@ function Home() {
             tenetur vitae, ullam voluptatem repellat dolorem accusamus voluptas
             aliquid? Iste, porro!
           </div>
-          <div className="home-social-links"></div>
+          <div className="home-social-links">
+            <img src={Twitter} alt="Twitter Icon" />
+            <img src={Instagram} alt="Instagram Icon" />
+          </div>
         </div>
         <img src={Cat} alt="Cat with hat image" className="home-img" />
       </div>

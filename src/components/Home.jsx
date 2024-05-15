@@ -1,6 +1,8 @@
 import Cat from "../assets/portada.png";
 import Twitter from "../assets/twitter.svg";
 import Instagram from "../assets/instagram.svg";
+import BinanceLogo from "../assets/binance-logo.svg";
+import ExchangerContainer from "./ExchangerContainer";
 
 function Home() {
   return (
@@ -21,7 +23,20 @@ function Home() {
         </div>
         <img src={Cat} alt="Cat with hat image" className="home-img" />
       </div>
-      <div className="home-exchanger-links"></div>
+      <div className="home-exchanger-links">
+        <ExchangerContainer
+          name="Binance"
+          img={BinanceLogo}
+        ></ExchangerContainer>
+        <ExchangerContainer
+          name="Binance"
+          img={BinanceLogo}
+        ></ExchangerContainer>
+        <ExchangerContainer
+          name="Binance"
+          img={BinanceLogo}
+        ></ExchangerContainer>
+      </div>
     </div>
   );
 }

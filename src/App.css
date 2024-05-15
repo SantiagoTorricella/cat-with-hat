@@ -53,6 +53,7 @@ button {
 
 .home-page {
   display: flex;
+  flex-direction: column;
   width: 50%;
   margin: 5em;
 }
@@ -64,4 +65,50 @@ button {
   width: 350px;
   height: 250px;
   margin-left: 1em;
+}
+
+.home-social-links {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-top: 2em;
+  height: 5em;
+}
+
+.home-exchanger-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.exchanger-container {
+  cursor: pointer;
+  display: flex;
+  padding: 2em;
+  flex-direction: column;
+  align-items: center;
+  border: solid 5px;
+  border-color: white;
+  border-radius: 2em;
+  margin-top: 1em;
+}
+
+.exchanger-logo {
+  height: 3em;
+  width: 5em;
+}
+
+/* ABOUT  */
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 5em;
+  gap: 2em;
+}
+
+.about-img {
+  height: 15em;
+  width: 20em;
 }

@@ -59,6 +59,7 @@ button {
   width: 50%;
   margin: 10em;
 }
+
 .home-description {
   display: flex;
 }
@@ -114,4 +115,15 @@ button {
 .about-img {
   height: 15em;
   width: 20em;
+}
+
+/* HOW TO BUY */
+
+.how-to-buy {
+}
+
+.step-container {
+  display: flex;
+  margin-top: 5em;
+  gap: 2em;
 }
